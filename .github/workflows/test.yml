@@ -109,7 +109,7 @@ jobs:
           override: true
           components: clippy
 
-      - uses: actions-rs/clippy-check@main
+      - uses: actions-rs/clippy-check@master
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           args: --all-features
